@@ -2,7 +2,7 @@ name: Push Protos to Registry
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - 'protos/**'
       - 'protato.yaml'
