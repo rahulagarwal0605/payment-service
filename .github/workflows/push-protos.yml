@@ -29,6 +29,6 @@ jobs:
       
       - name: Push to Registry
         env:
-          PROTATO_REGISTRY_URL: https://$\{\{ secrets.REGISTRY_TOKEN }}@github.com/rahulagarwal0605/proto-registry.git
+          PROTATO_REGISTRY_URL: "https://${{ secrets.REGISTRY_TOKEN }}@github.com/rahulagarwal0605/proto-registry.git"
         run: |
           ./protato push
