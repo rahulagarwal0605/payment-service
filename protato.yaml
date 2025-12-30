@@ -1,2 +1,7 @@
+service: payment-service
+directories:
+    owned: proto
+    vendor: vendor-proto
 projects:
-    - payments/api
+    - api/v1
+    - customer
