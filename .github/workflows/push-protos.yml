@@ -19,7 +19,7 @@ jobs:
       
       - name: Install Protato
         run: |
-          curl -fsSL https://github.com/rahulagarwal0605/protato/releases/download/v1.0.0/protato-linux-amd64.tar.gz | tar xz
+          curl -fsSL https://github.com/rahulagarwal0605/protato/releases/download/v1.0.1/protato-linux-amd64.tar.gz | tar xz
           chmod +x protato
       
       - name: Configure Git
