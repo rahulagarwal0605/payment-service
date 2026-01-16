@@ -1,7 +1,5 @@
 service: payment-service
 directories:
     owned: proto
-    vendor: vendor-proto
-projects:
-    - api/v1
-    - customer
+    vendor: proto
+auto_discover: true
